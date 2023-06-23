@@ -22,3 +22,5 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run a Python script
         run: python .github/workflows/example.py
+      - name: Install dependencies
+        run: pip install -r requirements.txt
